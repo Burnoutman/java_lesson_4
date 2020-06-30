@@ -1,12 +1,21 @@
 package com.company;
 
 public class Circle {
-    public double S;
+    public double R;
 
+    public Circle(double R) {
+        this.R=R;
+    }
 
-    public double CircleSL() {
+    public double CircleS() {
 
-        double R=5.0;
+        double S;
         return S=Math.PI * Math.pow(R,2);
 }
+
+    public double CircleL() {
+        double L;
+        return 2*Math.PI*R;
+
+    }
 }
