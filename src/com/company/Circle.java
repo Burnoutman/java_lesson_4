@@ -16,6 +16,5 @@ public class Circle {
     public double CircleL() {
         double L;
         return 2*Math.PI*R;
-
     }
 }
