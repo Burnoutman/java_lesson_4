@@ -8,13 +8,10 @@ public class Circle {
     }
 
     public double CircleS() {
-
-        double S;
-        return S=Math.PI * Math.pow(R,2);
+        return Math.PI * Math.pow(R,2);
 }
 
     public double CircleL() {
-        double L;
         return 2*Math.PI*R;
     }
 }

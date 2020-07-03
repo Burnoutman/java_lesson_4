@@ -5,7 +5,7 @@ public class Main {
     public static void main(String[] args) {
 
         Circle cr =new Circle(5);
-        Square sq = new Square(2,2);
+        Square sq = new Square(2,4);
         System.out.println("Площадь круга S = "+cr.CircleS());
         System.out.println("Периметр круга L = "+cr.CircleL());
         //Если стороны равны,то квадрат,если нет,то будет считать как прямоугольник ;)

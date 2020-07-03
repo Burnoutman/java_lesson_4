@@ -11,12 +11,10 @@ public class Square {
     }
 
     public int SquareS(){
-        int S;
-       return S=a*b;
+       return a*b;
    }
     public int SquareP(){
-        int P;
-        return P=a+b+a+b;
+        return a+b+a+b;
     }
 
 
